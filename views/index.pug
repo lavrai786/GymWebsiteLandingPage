@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#{title}</title>
+    style
+        include ../static/style.css
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="/"> Home</a></li>
+            <li><a href="/"> About</a></li>
+            <li><a href="/"> Contact us</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+
+    
+    <h1>Get gym membership at only 60$,Hurry Up &#128525</h1>
+    <!-- <p>
+        |#{content}  <!-- we will use pipe here -->
+    <!-- </p> --> 
+    <form action="/" method="POST" id="contact">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" placeholder="Enter your Name">
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Enter your Email">
+
+        <label for="Number">Number:</label>
+        <input type="number" name="number" id="Number" placeholder="Enter your Number">
+
+        <label for="address">Address:</label>
+        <textarea name="address" id="address" cols="30" rows="10" placeholder="Enter Your Address"></textarea>
+
+        <label for="about">More About You:</label>
+        <textarea name="about" id="about" cols="30" rows="10" placeholder="Write More About You"></textarea>
+        <button class="btn">Submit</button>
+    </form>
+</div>
+        
+</body>
+</html>
